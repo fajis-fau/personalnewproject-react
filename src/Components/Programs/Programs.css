@@ -1,0 +1,56 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rm;
+    padding: 0 2rem;
+}
+.programs-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+}
+.programs-catageries{
+    display: flex;
+    gap: 1rem;
+
+}
+.catageries{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+.catageries>:nth-child(1){
+    width: 2rem;
+    height: 2em;
+    fill: white;
+}
+.catageries>:nth-child(1){
+font-size: 1rem;
+font-weight: bold;
+}
+.catageries>:nth-child(1){
+    font-size: 0.9rem;
+    line-height: 24px;
+
+}
+.join-now{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.join-now>img{
+    width: 1rem;
+
+}
+.catageries:hover{
+    background: var(--orange);
+    cursor: pointer;
+}

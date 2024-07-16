@@ -1,8 +1,10 @@
 import './App.css';
+import Layout from './Components/Layout/Layout';
+
 function App() {
   return (
     <div className="App">
-          <span style={{color: 'white'}}>Subscribe Zainkeepscode</span>
+      <Layout/>
     </div>
   );
 }

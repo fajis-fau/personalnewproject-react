@@ -1,0 +1,28 @@
+.footer{
+   
+    position: relative;
+}
+.footer>hr{
+    border: 1px solid rgb(36, 31, 31);
+}
+.image-f{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    height: 20rem;
+    align-items: center;
+
+}
+.social-f>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+
+}
+.social-f{
+    display: flex;
+    gap: 4rem;
+
+}
