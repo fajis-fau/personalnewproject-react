@@ -16,7 +16,7 @@ const Layout = () => {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/personal-app' element={<Home />} />
+         
           <Route path='/programs' element={<Programs />} />
           <Route path='/abouts' element={<About />} />
           <Route path='/plans' element={<Plans />} />
