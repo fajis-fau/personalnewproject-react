@@ -21,30 +21,30 @@ const About = () => {
       <div className="right-a">
         <span>Some reasons</span>
         <div><span>Why</span><span> Choose Us</span></div>
-      
-      <div className="detials-a">
-        <div>
-          <img src={tick} alt="" />
-          <span>OVER 140+ EXPERT COACHES</span>
+
+        <div className="detials-a">
+          <div>
+            <img src={tick} alt="" />
+            <span>OVER 140+ EXPERT COACHES</span>
+          </div>
+          <div>
+            <img src={tick} alt="" />
+            <span>TRAIN SMARTER AND FASTER THAN BEFORE</span>
+          </div>
+          <div>
+            <img src={tick} alt="" />
+            <span>1 FREE PROGRAM FOR NEW MEMBER</span>
+          </div>
+          <div>
+            <img src={tick} alt="" />
+            <span>RELITABLE PATNERS</span>
+          </div>
         </div>
-        <div>
-          <img src={tick} alt="" />
-          <span>TRAIN SMARTER AND FASTER THAN BEFORE</span>
-        </div>
-        <div>
-          <img src={tick} alt="" />
-          <span>1 FREE PROGRAM FOR NEW MEMBER</span>
-        </div>
-        <div>
-          <img src={tick} alt="" />
-          <span>RELITABLE PATNERS</span>
-        </div>
-      </div>
-      <span className='span-r'>OUR PATNERS</span>
-      <div className="patners">
-        <img src={nike} alt="" />
-        <img src={adidas} alt="" />
-        <img src={nb} alt="" />
+        <span className='span-r'>OUR PATNERS</span>
+        <div className="patners">
+          <img src={nike} alt="" />
+          <img src={adidas} alt="" />
+          <img src={nb} alt="" />
         </div>
       </div>
     </div>

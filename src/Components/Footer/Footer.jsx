@@ -7,21 +7,21 @@ import logo from '../../assets/logo.png'
 
 const Footer = () => {
   return (
-  <div className="footer">
-  <hr/>
-    <div className="image-f">
-      <div className="social-f">
-      <img src={instagram} alt="" />
-      <img src={github} alt="" />
-      <img src={linkedin} alt="" />
+    <div className="footer">
+      <hr />
+      <div className="image-f">
+        <div className="social-f">
+          <img src={instagram} alt="" />
+          <img src={github} alt="" />
+          <img src={linkedin} alt="" />
+        </div>
+
+
+        <div className="logo-f">
+          <img src={logo} alt="" />
+        </div>
       </div>
-      
-   
-    <div className="logo-f">
-      <img src={logo} alt="" />
     </div>
-    </div>
-  </div>
   )
 }
 

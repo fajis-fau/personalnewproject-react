@@ -1,6 +1,6 @@
 import React from 'react'
 import './Programs.css'
-import {programsData} from '../../data/programsData'
+import { programsData } from '../../data/programsData'
 import rightArrow from '../../assets/rightArrow.png'
 
 const Programs = () => {
@@ -12,12 +12,12 @@ const Programs = () => {
         <span className='stroke-text'>To shape you</span>
       </div>
       <div className="programs-catageries">
-        {programsData.map((programs)=>(
+        {programsData.map((programs) => (
           <div className="catageries">
             {programs.image}
             <span>{programs.heading}</span>
             <span>{programs.details}</span>
-            <div className="join-now"><span>Join now</span> <img src={rightArrow}alt="" /></div>
+            <div className="join-now"><span>Join now</span> <img src={rightArrow} alt="" /></div>
           </div>
         ))}
       </div>

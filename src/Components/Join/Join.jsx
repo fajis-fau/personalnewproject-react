@@ -5,7 +5,7 @@ const Join = () => {
     return (
         <div className="join">
             <div className="left-j">
-                <hr/>
+                <hr />
                 <div>
                     <span className='stroke-text'>READY TO</span>
                     <span> LEVEL UP</span>
@@ -18,7 +18,7 @@ const Join = () => {
             <div className="right-j">
                 <form action="" className="email-cont">
                     <input type="email" name='user_email' placeholder='Enter your email address' />
-               <button className='btn btn-j'>Join now</button>
+                    <button className='btn btn-j'>Join now</button>
                 </form>
             </div>
         </div>

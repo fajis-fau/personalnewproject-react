@@ -13,7 +13,7 @@ const Header = () => {
       <img src={logo} alt="" className='logo' />
 
       {(menuOpen === false && mobile === true ? (
-        <div><img src={bars} alt="" /></div>
+        <div onClick={() => setMenuOpen(true)}><img src={bars} alt="" className='bars' /></div>
       ) : (
         <ul className='header-nav'>
 

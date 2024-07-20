@@ -81,3 +81,31 @@
     width: 2rem;
     
 }
+@media screen and (max-width: 768px){
+  .about{
+flex-direction: column;
+
+  }
+  .left-a{
+    grid-auto-rows: auto;
+    overflow: hidden;
+  }
+  .left-a>:nth-child(1){
+    width: 7rem;
+    height: 17rem;
+
+  }
+  .left-a>:nth-child(2){
+width: 15rem;
+height: 10rem;
+  }
+  .left-a>:nth-child(1){
+    width: 7erm;
+
+  }
+  .left-a>:nth-child(1){
+    width: 7rem;
+    height: 6rem;
+  }
+  
+}
